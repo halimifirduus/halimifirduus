@@ -14,6 +14,7 @@ class Stack():
 s1=Stack()
 s2=Stack()
 tag=str(input("Masukkan TAG html: ")).split()
+print(tag)
 balance=True
 for i in tag:
      if i[0]=="<" and i[-1]==">":
