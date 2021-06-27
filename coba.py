@@ -13,7 +13,7 @@ class Stack():
         return len(self.items)
 s1=Stack()
 s2=Stack()
-tag=str(input("Masukkan kode html: ")).split()
+tag=str(input("Masukkan TAG html= ")).split()
 balance=True
 for i in tag:
      if i[0]=="<" and i[-1]==">":
@@ -28,5 +28,3 @@ if s1.isempty() and s2.isempty() and balance==True:
      print(True)
 else:
      print(False)
-
-print('Program selesai!')
