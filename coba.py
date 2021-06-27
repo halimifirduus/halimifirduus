@@ -28,3 +28,5 @@ if s1.isempty() and s2.isempty() and balance==True:
      print(True)
 else:
      print(False)
+
+print('Program selesai')
